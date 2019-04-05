@@ -1,8 +1,7 @@
 export const s3Config = {
     buckets: {
-    'ap-south-1': 'uploads.ap-south-1.tensult.com',
-    'us-west-1': 'uploads.us-west-1.tensult.com'
+    'ap-south-2': 'mr-cognito-images'
     },
-    defaultRegion: 'ap-south-1'
+    defaultRegion: 'ap-south-2'
   };
   

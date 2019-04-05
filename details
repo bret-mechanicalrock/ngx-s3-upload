@@ -1,0 +1,15 @@
+S3: mr-cognito-images
+
+Cognito
+Pool Id:  ap-southeast-2_KbwqC6jz0
+Pool ARN: arn:aws:cognito-idp:ap-southeast-2:598112752826:userpool/ap-southeast-2_KbwqC6jz0
+App Client Name: ngx-s3-upload
+App Client ID:   45teup16alj1mtkl8pc49c9brm
+
+Identity Pool name: ngx_s3_uploadIdentity
+Pool Role: Cognito_ngx_s3_uploadIdentityAuth_Role
+
+gist with Identity Pool Authenticated Role Policy to upload to S3 bucket
+https://gist.github.com/koladilip/3b70c313a7071d12a83b818efa1abc75
+Identity Pool ID: "ap-southeast-2:f090e0b1-8627-402f-8726-9829c4a946d8", // Identity pool ID
+

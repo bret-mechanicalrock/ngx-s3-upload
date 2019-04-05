@@ -1,0 +1,9 @@
+version: "2"
+services:
+  ngx-s3-upload:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - $HOME/.aws:/home/node/.aws
+      - .:/app

@@ -1,8 +1,8 @@
 export let cognitoConfig = {
     userPool: {
-        UserPoolId: 'us-east-1_o07i6UNpK',
-        ClientId: 'a3us4rrhlvcso6eid68c5ue91',
-        region: 'us-east-1'
+        UserPoolId: 'ap-southeast-2_KbwqC6jz0',
+        ClientId: '45teup16alj1mtkl8pc49c9brm',
+        region: 'ap-southeast-2'
     },
-    identityPoolId: 'us-east-1:cf1c1866-5331-409a-808e-dfa1925bf9fc'
+    identityPoolId: 'ap-southeast-2:f090e0b1-8627-402f-8726-9829c4a946d8'
 };
